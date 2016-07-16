@@ -32,14 +32,14 @@ $(document).ready(function(){
 
     	if (event.which == random){
     		wins++;
-    		note = "You Win!"
+    		note = "You Win! You must be in touch with your inner eye!"
     		resetGame();
     	} else { 
     		guessesSoFar++;
     		guessesLeft--;
     		if (guessesLeft <= 0){
     			losses++;
-    			note = "You lose sucker!"
+    			note = "You clearly do not possess the Divine Power."
     			resetGame();
     		}
 
